@@ -1,0 +1,27 @@
+{
+"development": {
+    "username": "sql10779610",
+    "password": "H8Eirhlm2C",
+    "database": "sql10779610",
+    "host": "sql10.freesqldatabase.com",
+    "dialect": "mysql",
+    "port": 3306,
+    "dialectOptions": {
+      "connectTimeout": 30000 
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "H8Eirhlm2C",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "H8Eirhlm2C",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
