@@ -13,6 +13,7 @@ const db = require('./models');
 const authRoutes = require('./routes/authRoutes');
 const usersRoutes = require("./routes/usersRoutes");
 
+
 db.sequelize.sync();
 
 const app = express();
@@ -42,6 +43,8 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
+
+
 
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
